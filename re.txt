@@ -1,0 +1,20 @@
+create-react-app client
+create new folder server and create app.js file
+in server folder Run command -: npm init -y
+then install express and dotenv file in server folder -: npm i express dotenv
+install MaterailUI -: npm install @mui/material @emotion/react @emotion/styled
+install -: npm install @mui/icons-material
+install router dom for routing -: npm i react-router-dom
+connect database with Node via Moongose on server-: npm i Mongoose cors  // install node and Mongodb before
+open website mongodb atlas create account setup and create new database and new collection in it.
+--> In network Access option set IP 0.0.0.0 and allow anywhere Access
+--> connect -> coonect your Application --> copy link / in this link <password> delete this and write your set password and /databaseName? 
+password does not contain any special character 
+install-: npm i validator  for email validation
+install bcrypt-: npm i bcryptjs  for hashing Algorithm
+for creating JWT token go :- https://jwt.io/  and copy token
+On server install -: npm i jsonwebtoken and npm i cookie-parser
+npm install ip --save
+npm install --save react-toastify 
+npm i nodemailer     (Server)for sending mail
+npm i dotenv
