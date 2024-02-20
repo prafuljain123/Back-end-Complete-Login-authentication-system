@@ -4,7 +4,7 @@ require("./db/connection");
 const router = require('./Routes/router');
 const cors = require('cors');
 const cookiParser = require('cookie-parser');
-require("dotenv").config();
+
 
 const port = process.env.PORT || 3000;
 
