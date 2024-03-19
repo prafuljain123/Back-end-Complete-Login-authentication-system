@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 const IP = require('ip');
 
 const corsOptions = {
-    origin: 'https://login-system-u503.onrender.com/', // Replace with the origin of your frontend application
+    origin: 'https://login-system-u503.onrender.com', // Replace with the origin of your frontend application
     credentials: true, // Enable credentials (cookies, authorization headers, etc.)
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     preflightContinue: false,
